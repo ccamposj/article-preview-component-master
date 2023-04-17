@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .arrow {
+    @apply lg:after:absolute lg:after:top-[83%] lg:after:left-[45%] lg:after:border-[10px] lg:after:w-0 lg:after:h-0 lg:after:border-dk-gray-blue lg:after:border-solid lg:after:rotate-[45deg];
+  }
+}
